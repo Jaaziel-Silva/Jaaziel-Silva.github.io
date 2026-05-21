@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaaziel Silva</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <canvas id="fundo-estrelas" aria-hidden="true"></canvas>
+
+    <main class="page">
+        <section class="hero viewport">
+            <div class="frente">
+                <h3 class="detalhe-nome animate-subtitle">Olá, eu sou</h3>
+                <h1 class="nome animate-name">Jaaziel Silva</h1>
+
+                <p class="icones animate-icons" aria-label="Redes sociais">
+                    <a href="https://www.instagram.com/jaazielslv?igsh=MzR2cHhyNnVjdjU2" aria-label="Instagram"
+                        target="_blank" rel="noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" aria-hidden="true">
+                            <path fill="currentColor"
+                                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jaaziel-batista-da-silva" aria-label="LinkedIn" target="_blank"
+                        rel="noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" aria-hidden="true">
+                            <path fill="currentColor"
+                                d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+                        </svg>
+                    </a>
+                    <a href="https://github.com/JaazielSlv" aria-label="GitHub" target="_blank" rel="noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill="currentColor"
+                                d="M12 0c-6.63 0-12 5.37-12 12 0 5.3 3.438 9.8 8.205 11.385.6.113.82-.261.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.745.083-.73.083-.73 1.205.085 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.605-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12" />
+                        </svg>
+                    </a>
+                </p>
+            </div>
+        </section>
+
+        <!-- Seção de projetos: grid 2x3 -->
+        <section id="projects" class="projects-section viewport">
+            <div class="projects-container">
+                <h2 class="projects-title">Projetos</h2>
+                <div class="projects-grid">
+                <div class="project-card" id="proj-1">
+                    <h3>Detecção de Ataques ECN em L4S</h3>
+                    <img src="img/Detecção de Ataques ECN em L4S.png" alt="Detecção ECN" class="project-img">
+                    <div class="project-techs" aria-label="Tecnologias usadas no projeto">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vagrant/vagrant-original.svg" alt="Vagrant">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" alt="Ansible">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="Bash">
+                    </div>
+                    <p class="project-desc">Detecção de Ataques ECN Não-Responsivos em Arquiteturas L4S por Meio de
+                        Aprendizado Supervisionado.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/JaazielSlv/Projeto-ADR-L4S-CSTRC-IFPB" class="project-link" aria-label="Repositório" target="_blank" rel="noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill="currentColor"
+                                    d="M12 0c-6.63 0-12 5.37-12 12 0 5.3 3.438 9.8 8.205 11.385.6.113.82-.261.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.745.083-.73.083-.73 1.205.085 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.605-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card" id="proj-2">
+                    <h3>Bit Builders</h3> <img src="img/bit-.png" alt="Bit Builders" class="project-img">
+                    <div class="project-techs" aria-label="Tecnologias usadas no projeto">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                    </div>
+                    <p class="project-desc">A aplicação web visa auxiliar usuários no processo de seleção e visualização
+                        de componentes para a montagem de computadores pessoais (PC Building)</p>
+                    <div class="project-links"> <a href="https://github.com/JaazielSlv/BIT-BUILDERS"
+                            class="project-link" aria-label="Repositório" target="_blank" rel="noreferrer"> <svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill="currentColor"
+                                    d="M12 0c-6.63 0-12 5.37-12 12 0 5.3 3.438 9.8 8.205 11.385.6.113.82-.261.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.745.083-.73.083-.73 1.205.085 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.605-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12" />
+                            </svg> </a> <a href="https://jaazielslv.github.io/BIT-BUILDERS/" class="project-link"
+                            aria-label="Página" target="_blank" rel="noreferrer"> <svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill="currentColor"
+                                    d="M19 19H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83l1.41 1.41L19 6.41V10h2V3h-7z" />
+                            </svg> </a> </div>
+                </div>
+                <div class="project-card" id="proj-3">
+                    <h3>Geo Router</h3> <img src="img/geo-router.png" alt="Geo Router" class="project-img">
+                    <div class="project-techs" aria-label="Tecnologias usadas no projeto">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap">
+                        <img src="https://cdn.simpleicons.org/leaflet/199900" alt="Leaflet">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/d3js/d3js-original.svg" alt="D3.js">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/threejs/threejs-original.svg" alt="Three.js">
+                    </div>
+                    <p class="project-desc">Plataforma de rastreamento e visualização de roteamento entre Sistemas
+                        Autônomos (AS) na Internet</p>
+                    <div class="project-links"> <a href="https://github.com/JaazielSlv/Geo-Router" class="project-link" aria-label="Repositório"
+                            target="_blank" rel="noreferrer"> <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill="currentColor"
+                                    d="M12 0c-6.63 0-12 5.37-12 12 0 5.3 3.438 9.8 8.205 11.385.6.113.82-.261.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.745.083-.73.083-.73 1.205.085 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.605-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12" />
+                            </svg> </a> <a href="https://jaazielslv.github.io/Geo-Router/" class="project-link" aria-label="Página" target="_blank"
+                            rel="noreferrer"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                aria-hidden="true">
+                                <path fill="currentColor"
+                                    d="M19 19H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83l1.41 1.41L19 6.41V10h2V3h-7z" />
+                            </svg> </a> </div>
+                </div>
+                <div class="project-card" id="proj-4">
+                    <h3>e-commerce em PHP</h3> <img src="img/e-commerce.png" alt="e-Começe" class="project-img">
+                    <div class="project-techs" aria-label="Tecnologias usadas no projeto">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+                    </div>
+                    <p class="project-desc">Projeto de uma plataforma E-commerce com PHP</p>
+                    <div class="project-links"> <a href="https://github.com/JaazielSlv/E-commerce" class="project-link" aria-label="Repositório"
+                            target="_blank" rel="noreferrer"> <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill="currentColor"
+                                    d="M12 0c-6.63 0-12 5.37-12 12 0 5.3 3.438 9.8 8.205 11.385.6.113.82-.261.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.745.083-.73.083-.73 1.205.085 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.605-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12" />
+                            </svg> </a> </div>
+                </div>
+                <div class="project-card" id="proj-5">
+                    <h3>Cardápio Padaria</h3> <img src="img/padaria.png" alt="Cardápio Padaria" class="project-img">
+                    <div class="project-techs" aria-label="Tecnologias usadas no projeto">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+                    </div>
+                    <p class="project-desc">Base de um site para uma padaria</p>
+                    <div class="project-links"> <a href="https://github.com/JaazielSlv/Projeto_padaria"
+                            class="project-link" aria-label="Repositório" target="_blank" rel="noreferrer"> <svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill="currentColor"
+                                    d="M12 0c-6.63 0-12 5.37-12 12 0 5.3 3.438 9.8 8.205 11.385.6.113.82-.261.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.745.083-.73.083-.73 1.205.085 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.605-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12" />
+                            </svg> </a> <a href="https://jaazielslv.github.io/Projeto_padaria/" class="project-link"
+                            aria-label="Página" target="_blank" rel="noreferrer"> <svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill="currentColor"
+                                    d="M19 19H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83l1.41 1.41L19 6.41V10h2V3h-7z" />
+                            </svg> </a> </div>
+                </div>
+                <div class="project-card" id="proj-6">
+                    <h3>CRUD Simples em PHP</h3> <img src="img/crud.png" alt="CRUD PHP" class="project-img">
+                    <div class="project-techs" aria-label="Tecnologias usadas no projeto">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+                    </div>
+                    <p class="project-desc">Aplicação CRUD (Create, Read, Update, Delete) completa em PHP puro e MySQL.
+                    </p>
+                    <div class="project-links"> <a href="https://github.com/JaazielSlv/Crud-usuarios-php" class="project-link" aria-label="Repositório"
+                            target="_blank" rel="noreferrer"> <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill="currentColor"
+                                    d="M12 0c-6.63 0-12 5.37-12 12 0 5.3 3.438 9.8 8.205 11.385.6.113.82-.261.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.745.083-.73.083-.73 1.205.085 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.605-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12" />
+                            </svg> </a> </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Seção de Skills abaixo dos projetos -->
+    <section id="skills" class="skills-section viewport">
+        <div class="skills-container">
+            <h2 class="skills-title">Skills</h2>
+            <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-logo">
+                            <a class="skill-img-link" href="#" aria-label="Logo HTML">
+                                <!-- substitua por: <img src="img/html.svg" alt="HTML"> -->
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40"
+                    alt="html5 logo" />
+                            </a>
+                        </div>
+                        <h4>HTML</h4>
+                        <p class="skill-desc">Marcação semântica e acessibilidade</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-logo">
+                            <a class="skill-img-link" href="#" aria-label="Logo CSS">
+                                <!-- substitua por: <img src="img/css.svg" alt="CSS"> -->
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40"
+                    alt="css3 logo" />
+                            </a>
+                        </div>
+                        <h4>CSS</h4>
+                        <p class="skill-desc">Layouts responsivos e animações</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-logo">
+                            <a class="skill-img-link" href="#" aria-label="Logo JavaScript">
+                                <!-- substitua por: <img src="img/js.svg" alt="JavaScript"> -->
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    height="40" alt="javascript logo" />
+                            </a>
+                        </div>
+                        <h4>JavaScript</h4>
+                        <p class="skill-desc">Desenvolver funcionalidades interativas e dinâmicas para websites com JavaScript</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-logo">
+                            <a class="skill-img-link" href="#" aria-label="Logo Python">
+                                <!-- substitua por: <img src="img/python.svg" alt="Python"> -->
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40"
+                    alt="python logo" />
+                            </a>
+                        </div>
+                        <h4>Python</h4>
+                        <p class="skill-desc">Scripts, automação e ML básico</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-logo">
+                            <a class="skill-img-link" href="#" aria-label="Logo PHP">
+                                <!-- substitua por: <img src="img/php.svg" alt="PHP"> -->
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40"
+                    alt="php logo" />
+                            </a>
+                        </div>
+                        <h4>PHP</h4>
+                        <p class="skill-desc">Back-end simples e integração com MySQL</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-logo">
+                            <a class="skill-img-link" href="#" aria-label="Logo MySQL">
+                                <!-- substitua por: <img src="img/mysql.svg" alt="MySQL"> -->
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40"
+                    alt="mysql logo" />
+                            </a>
+                        </div>
+                        <h4>MySQL</h4>
+                        <p class="skill-desc">Modelagem e consultas SQL</p>
+                    </div>
+                <div class="skill-card">
+                    <div class="skill-logo">
+                        <a class="skill-img-link" href="#" aria-label="Logo Git">
+                            <!-- substitua por: <img src="img/git.svg" alt="Git"> -->
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40"
+                    alt="git logo" />
+                        </a>
+                    </div>
+                    <h4>Git</h4>
+                    <p class="skill-desc">Versionamento e fluxo Git</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-logo">
+                        <a class="skill-img-link" href="#" aria-label="Logo Linux">
+                            <!-- substitua por: <img src="img/linux.svg" alt="Linux"> -->
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40"
+                    alt="linux logo" />
+                        </a>
+                    </div>
+                    <h4>Linux</h4>
+                    <p class="skill-desc">Administração e shell</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-logo">
+                        <a class="skill-img-link" href="#" aria-label="Logo Bash">
+                            <!-- substitua por: <img src="img/bash.svg" alt="Bash"> -->
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="40"
+                        alt="bash logo" />
+                        </a>
+                    </div>
+                    <h4>Bash</h4>
+                    <p class="skill-desc">Scripting e automação de tarefas</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-logo">
+                        <a class="skill-img-link" href="#" aria-label="Logo Vagrant">
+                            <!-- substitua por: <img src="img/vagrant.svg" alt="Vagrant"> -->
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vagrant/vagrant-original.svg" height="40"
+                    alt="vagrant logo" />
+                        </a>
+                    </div>
+                    <h4>Vagrant</h4>
+                    <p class="skill-desc">Ambientes replicáveis e VM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Certificados -->
+    <section id="certificates" class="certificates-section viewport">
+        <div class="certificates-container">
+            <h2 class="certificates-title">Certificados</h2>
+            <div class="certificates-grid">
+                <!-- Certificado 1 -->
+                <div class="certificate-card">
+                    <img src="img/roteamento.png" alt="CCNA: Fundamentos de Switching, Roteamento e Redes Sem Fio" class="cert-image">
+                    <div class="cert-techs" aria-label="Tecnologias">
+                        <span class="tech-tag">Serviços IP</span>
+                        <span class="tech-tag">Roteamento</span>
+                        <span class="tech-tag">Redes Sem Fio</span>
+                        <span class="tech-tag">Redundância</span>
+                    </div>
+                    <h3 class="cert-title">CCNA: Fundamentos de Switching, Roteamento e Redes Sem Fio</h3>
+                    <p class="cert-institution">Cisco Networking Academy</p>
+                    <p class="cert-description">Possuo uma base em operações de switching, configuração de LAN com e sem fio utilizando as melhores práticas de segurança, protocolos de redundância e desenvolveu habilidades de resolução de problemas.</p>
+                    <a href="https://www.credly.com/badges/5c4a6e0f-e7fb-4206-8002-297ce6b7aa32" class="cert-link" target="_blank" rel="noreferrer">Ver Certificado →</a>
+                </div>
+
+                <!-- Certificado 2 -->
+                <div class="certificate-card">
+                    <img src="/img/php.png" alt="Desenvolvimento Web Completo Php MySql" class="cert-image">
+                    <div class="cert-techs" aria-label="Tecnologias">
+                        <span class="tech-tag">PHP</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">Desenvolvimento Web</span>
+                    </div>
+                    <h3 class="cert-title">Desenvolvimento Web Completo Php MySql</h3>
+                    <p class="cert-institution">Udemy</p>
+                    <p class="cert-description">Possuo conhecimento em desenvolvimento web com PHP e MySQL, abrangendo desde conceitos fundamentais até projetos avançados.</p>
+                    <a href="https://www.udemy.com/certificate/UC-9f5421b6-15f2-41ca-8484-55fddc1daea5/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com" class="cert-link" target="_blank" rel="noreferrer">Ver Certificado →</a>
+                </div>
+
+                <!-- Certificado 3 -->
+                <div class="certificate-card">
+                    <img src="/img/cyber.png" alt="Introduction to Cybersecurity" class="cert-image">
+                    <div class="cert-techs" aria-label="Tecnologias">
+                        <span class="tech-tag">Segurança cibernética</span>
+                        <span class="tech-tag">Práticas de Segurança</span>
+                        <span class="tech-tag">vulnerabilidades de rede</span>
+                    </div>
+                    <h3 class="cert-title">Introduction to Cybersecurity</h3>
+                    <p class="cert-institution">Cisco Networking Academy</p>
+                    <p class="cert-description">Possuo conhecimento introdutório sobre segurança cibernética, incluindo as implicações globais das ameaças cibernéticas em diversos setores. A nivel estudantil compreendo vulnerabilidades, detecção e defesa contra ameaças.</p>
+                    <a href="https://www.credly.com/badges/0da61016-fbe4-4d13-bfdb-fb4a70ecac72/linked_in_profile" class="cert-link" target="_blank" rel="noreferrer">Ver Certificado →</a>
+                </div>
+
+                <!-- Certificado 4 -->
+                <div class="certificate-card">
+                    <img src="/img/python.png" alt="Programação Python do Zero ao Avançado + Projetos Reais 2024" class="cert-image">
+                    <div class="cert-techs" aria-label="Tecnologias">
+                        <span class="tech-tag">Programação Orientada a Objetos</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Django</span>
+                    </div>
+                    <h3 class="cert-title">Programação Python do Zero ao Avançado + Projetos Reais 2024</h3>
+                    <p class="cert-institution">LinkedIn Learning</p>
+                    <p class="cert-description">Possuo conhecimento intermediário sobre programação em Python, incluindo conceitos fundamentais, estruturas de dados e desenvolvimento de projetos práticos.</p>
+                    <a href="https://www.udemy.com/certificate/UC-c406fdb8-7f23-43b7-a364-9878945ec14c/" class="cert-link" target="_blank" rel="noreferrer">Ver Certificado →</a>
+                </div>
+
+                <!-- Certificado 5 -->
+                <div class="certificate-card">
+                    <img src="/img/lara.png" alt="Introdução às Linguagens de Marcação e Script" class="cert-image">
+                    <div class="cert-techs" aria-label="Tecnologias">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <h3 class="cert-title">Introdução às Linguagens de Marcação e Script</h3>
+                    <p class="cert-institution">LARA IFPB</p>
+                    <p class="cert-description">Possuo conhecimento intermediário sobre linguagens de marcação e script, incluindo HTML, CSS e JavaScript.</p>
+                    <a href="https://www.linkedin.com/in/jaaziel-batista-da-silva/overlay/Certifications/986353004/treasury/?profileId=ACoAAEYlID0Bzey9851Pg5Ntp-PgvKI0rxfvvV0" class="cert-link" target="_blank" rel="noreferrer">Ver Certificado →</a>
+                </div>
+
+                <!-- Certificado 6 -->
+                <div class="certificate-card">
+                    <img src="/img/IOT.png" alt="Introdução à IoT" class="cert-image">
+                    <div class="cert-techs" aria-label="Tecnologias">
+                        <span class="tech-tag">IoT</span>
+                        <span class="tech-tag">Internet das Coisas</span>
+                        <span class="tech-tag">Transformação Digital</span>
+                    </div>
+                    <h3 class="cert-title">Introdução à IoT</h3>
+                    <p class="cert-institution">Cisco Networking Academy</p>
+                    <p class="cert-description">Possuo conhecimento sobre Internet das Coisas (IoT), incluindo conceitos fundamentais, arquitetura e aplicações práticas.</p>
+                    <a href="https://www.credly.com/badges/77488123-bf4a-4437-a55e-97f8d2ba66aa/linked_in_profile" class="cert-link" target="_blank" rel="noreferrer">Ver Certificado →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre Mim -->
+    <section id="about" class="about-section viewport">
+        <div class="about-container">
+            <div class="about-photo">
+                <img src="https://avatars.githubusercontent.com/u/143227938?v=4" alt="Jaaziel Silva" class="profile-img">
+            </div>
+            <div class="about-content">
+                <h2 class="about-title">Sobre Mim</h2>
+                <p class="about-text">
+                    Sou um desenvolvedor apaixonado por tecnologia e focado em criar soluções que entregam impacto real. Tenho vivência prática no desenvolvimento de sistemas web de ponta a ponta, e hoje busco expandir meus conhecimentos em <strong>Cloud Computing</strong> e <strong>Cybersecurity</strong> para construir aplicações mais seguras e modernas.
+                    <br><br>
+                    Para mim, a excelência técnica vai muito além do código. Minha paixão é transformar ideias em produtos funcionais e escaláveis, sempre movido pela curiosidade e pelo desafio de evoluir a cada novo projeto.
+                </p>
+                <div class="about-contacts">
+                    <a href="mailto:jaaziel.b.silva@email.com" class="contact-item" aria-label="Email">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                        </svg>
+                        <span>jaaziel.b.silva@email.com</span>
+                    </a>
+                    <a href="https://www.instagram.com/jaazielslv?igsh=MzR2cHhyNnVjdjU2" target="_blank" rel="noreferrer" class="contact-item" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" aria-hidden="true">
+                            <path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+                        </svg>
+                        <span>@jaazielslv</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jaaziel-batista-da-silva" target="_blank" rel="noreferrer" class="contact-item" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" aria-hidden="true">
+                            <path fill="currentColor" d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/>
+                        </svg>
+                        <span>Jaaziel Silva</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
+    </main>
